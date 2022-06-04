@@ -1,0 +1,3 @@
+#define LOGFATAL(x, y) (log_fatal(NAME " (" __FILE__ ":" STRINGIFY(__LINE__) "): " x, y))
+#define STRINGIFY(x) STRING(x)
+#define STRING(x) #x
